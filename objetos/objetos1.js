@@ -19,3 +19,25 @@ ob.nombre = "Santi"
 console.log(ob.datos());
 ob.telefono = 2223344;
 console.log(ob.datos());
+
+///////////////////////////////////////
+
+function fraccion(num1, den1, num2, den2) {
+    this.num1 = num1;
+    this.num2 = num2;
+    this.den1 = den1;
+    this.den2 = den2;
+    this.suma = function () {
+        if (den1 > den2) {
+            suma += num1, num2;
+            console.log(``)
+
+        } else {
+            suma = ((num1 + num2) / den1);
+        }
+
+    }
+
+}
+var total = new fraccion(1, 3, 2, 3)
+console.log(total.suma())
